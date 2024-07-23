@@ -16,14 +16,6 @@ file_name2 = ".\sentence_emojifier.pkl"
 file = open(file_name2, "rb")
 
 
-# word_to_index, index_to_word, word_to_vec_map = read_glove_vecs(
-#     "D:\\installations\\Coding\\Python\\Python course\\Emojifier\\data\\glove.6B.50d.txt")
-
-# myemojifier = Emojifier(word_to_vec_map, emojifier.pred,
-#                         emojifier.W, emojifier.b)
-
-# save_object(myemojifier, file_name2)
-
 
 emojifier = pickle.load(file, encoding='utf8')
 
