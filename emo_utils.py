@@ -98,7 +98,4 @@ def predict(X, Y, W, b, word_to_vec_map):
         A = softmax(Z)
         pred[j] = np.argmax(A)
 
-    print("Accuracy: " +
-          str(np.mean((pred[:] == Y.reshape(Y.shape[0], 1)[:]))))
-
     return pred
