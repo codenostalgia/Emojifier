@@ -11,8 +11,8 @@ class Emojifier:
         self.word_to_vec_map = word_to_vec_map
 
 
-file_name = ".emojifier.pkl"
-file_name2 = ".sentence_emojifier.pkl"
+file_name = ".\emojifier.pkl"
+file_name2 = ".\sentence_emojifier.pkl"
 file = open(file_name2, "rb")
 
 
